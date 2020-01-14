@@ -4,4 +4,7 @@
     <string name="tv_msg">お名前を入力してください。</string>
 
     <string name="bt_save">保存</string>
+
+    <string name="cd_drink">ドリンク</string>
+    <string name="cd_food">フード</string>
 </resources>

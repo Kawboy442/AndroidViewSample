@@ -26,7 +26,30 @@
         android:layout_marginBottom="25dp"
         android:layout_marginTop="5dp"
         android:background="#FFFFFF"
-        android:inputType="phone"/>
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#df7401"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cdDrink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="25dp"
+            android:background="#FFFFFF"
+            android:text="@string/cd_drink"/>
+
+        <CheckBox
+            android:id="@+id/cdFood"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFFFFF"
+            android:text="@string/cd_food"/>
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/btSave"
