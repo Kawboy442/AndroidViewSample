@@ -7,4 +7,7 @@
 
     <string name="cd_drink">ドリンク</string>
     <string name="cd_food">フード</string>
+
+    <string name="rd_male">男</string>
+    <string name="rb_female">女</string>
 </resources>
